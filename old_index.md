@@ -6,6 +6,7 @@ pagetitle: notes
 Notes and observations
 -----------------
 
+
 <img src="resources/profile_pic.png" id="profile_pic"/>
 
 | Don Blair 

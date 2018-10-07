@@ -2,6 +2,7 @@
 # Notes 
 <!--<img src="resources/profile_pic.png" id="profile_pic"/>-->
 
+
 ## Collaboration tech [chat, VOIP, forums] 
 
 - **Riot and Matrix**. For daily communications among collaborators, we've been using [Riot.im](http://riot.im), which is a slick client (on smartphones, in browsers, and with desktop clients) for the [Matrix](http://matrix.org) protocol.  Matrix is intended to be a decentralized chat and VOIP protocol -- decentralized in the sense that Matrix server software is open source, can be run independently (even on a single-board computer like a Raspberry Pi), and can be federated.  It is also intended to be a 'bridging' protocol:  multiple other messaging protocols are currently supported (e.g. Slack, IRC) and interfaced by a Matrix server. Conversations and threads are organized within 'rooms'; VOIP seems to be stable, even in relatively low-bandwidth networking conditions (comparing favorably with Skype and Google Hangouts); and there is the ability to manage 'integrations' such as attatching an Etherpad (collaborative document editing) to a 'room'.
