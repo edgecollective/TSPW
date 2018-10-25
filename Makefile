@@ -22,7 +22,7 @@ copy_resources:
 build/%.html: %.md
 	cat $< > $(TEMPFILE)
 	#pandoc --mathjax -t html5 -s -c $(RESOURCEDIR)/style.css $(TEMPFILE) -o $@
-	pandoc --mathjax -t html5 -f markdown_github -s -c $(RESOURCEDIR)/style.css $(TEMPFILE) -o $@
+	pandoc --mathjax -t html5 -f gfm -s -c $(RESOURCEDIR)/style.css $(TEMPFILE) -o $@
 	rm -f $(TEMPFILE)
 
 deploy:
