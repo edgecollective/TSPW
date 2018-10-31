@@ -4,6 +4,7 @@
 
 # Low-power Sensor --> LoRa/Wifi Gateway --> FarmOS
 
+
 ## Hardware Setup
 
 We're using a battery-powered [Adafruit Feather](https://www.adafruit.com/product/3178) microcontroller as as a remote instrument to measure temperature, light, and its own battery level.  For sensors, we're using a [DS18B20 'onewire' probe](https://www.amazon.com/T-PRO-DS18b20-Waterproof-Temperature-Transmitter/dp/B073XKXB3G/ref=asc_df_B073XKXB3G/?tag=hyprod-20&linkCode=df0&hvadid=216574878909&hvpos=1o2&hvnetw=g&hvrand=7307361722931237624&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9002000&hvtargid=pla-350075920462&psc=1) to measure temperature, and a simple [light-dependent resistor](https://www.amazon.com/Honbay-Photoresistor-Dependent-Resistor-Sensitive/dp/B07DHDQ8LN/ref=asc_df_B07DHDQ8LN/?tag=hyprod-20&linkCode=df0&hvadid=241964169520&hvpos=1o2&hvnetw=g&hvrand=11525597541767094435&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9002000&hvtargid=pla-499448294844&psc=1) to measure light level. 
