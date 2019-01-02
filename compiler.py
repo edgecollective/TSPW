@@ -19,7 +19,7 @@ def hello(count):
         filebase=orig.split(".")[0]
         print(filebase)
         outfile=filebase+".html"
-        command="pandoc --mathjax -t html5 -f gfm -s -c ./"+RESOURCEDIR+"/style.css ./"+orig+" -o ./"+outfile
+        command="pandoc --mathjax -t html5 -f gfm -s -c ./"+RESOURCEDIR+"/style.css ./"+orig+" -o ./"+TARGETDIR+"/"+outfile
         print(command)
         call(command,shell=True)
         #pandoc --mathjax -t html5 -f gfm -s -c $(RESOURCEDIR)/style.css $(TEMPFILE) -o $@
